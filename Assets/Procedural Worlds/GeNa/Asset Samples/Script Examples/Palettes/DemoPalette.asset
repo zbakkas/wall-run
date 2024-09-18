@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1599614508, guid: b23c226377283a141b3d7e1ffca2bdb5, type: 3}
+  m_Name: DemoPalette
+  m_EditorClassIdentifier: 
+  m_paletteEntryIDCount: -2147483640
+  m_paletteEntries:
+  - m_name: Cube
+    m_id: -2147483647
+    m_guid: 09718523e0ab56a4f9f4b7f5b461b7ab
+    m_object: {fileID: 2274050461218680846, guid: 09718523e0ab56a4f9f4b7f5b461b7ab,
+      type: 3}
+  - m_name: Advanced Cube
+    m_id: -2147483646
+    m_guid: 887faa1dc11d3454caacb05fc1c500ea
+    m_object: {fileID: 2274050461218680846, guid: 887faa1dc11d3454caacb05fc1c500ea,
+      type: 3}
+  - m_name: Simple Cube
+    m_id: -2147483645
+    m_guid: ed605b126aaa2f5498e8b398dab06c4a
+    m_object: {fileID: 2274050461218680846, guid: ed605b126aaa2f5498e8b398dab06c4a,
+      type: 3}
+  - m_name: Spline Cube
+    m_id: -2147483644
+    m_guid: 4d136d0426a46674cb441515f257c855
+    m_object: {fileID: 2274050461218680846, guid: 4d136d0426a46674cb441515f257c855,
+      type: 3}
+  - m_name: Advanced Cube
+    m_id: -2147483643
+    m_guid: 887faa1dc11d3454caacb05fc1c500ea
+    m_object: {fileID: 2274050461218680846, guid: 887faa1dc11d3454caacb05fc1c500ea,
+      type: 3}
+  - m_name: Random Cube
+    m_id: -2147483642
+    m_guid: 09718523e0ab56a4f9f4b7f5b461b7ab
+    m_object: {fileID: 2274050461218680846, guid: 09718523e0ab56a4f9f4b7f5b461b7ab,
+      type: 3}
+  - m_name: Simple Cube
+    m_id: -2147483641
+    m_guid: ed605b126aaa2f5498e8b398dab06c4a
+    m_object: {fileID: 2274050461218680846, guid: ed605b126aaa2f5498e8b398dab06c4a,
+      type: 3}
+  - m_name: Spline Cube
+    m_id: -2147483640
+    m_guid: 4d136d0426a46674cb441515f257c855
+    m_object: {fileID: 2274050461218680846, guid: 4d136d0426a46674cb441515f257c855,
+      type: 3}

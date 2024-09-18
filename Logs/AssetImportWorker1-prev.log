@@ -1,0 +1,386 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1256; Version 1909; 64bit' Language: 'en' Physical Memory: 7860 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/zouhir/Desktop/wall run
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59859
+Successfully changed project path to: C:/Users/zouhir/Desktop/wall run
+C:/Users/zouhir/Desktop/wall run
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 394.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/zouhir/Desktop/wall run/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   
+    VRAM:     3930 MB
+    Driver:   30.0.101.1338
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004818 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 166.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.935 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5935ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1071ms)
+			LoadAssemblies (181ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (473ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (167ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019246 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.741 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3743ms)
+		BeginReloadAssembly (589ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (3000ms)
+			LoadAssemblies (744ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (789ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (1145ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (926ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 5.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.5 MB.
+System memory in use after: 73.6 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1882.
+Total: 16.943300 ms (FindLiveObjects: 0.599800 ms CreateObjectMapping: 0.158800 ms MarkObjects: 15.958900 ms  DeleteObjects: 0.221700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Plugins/Banana Yellow Games/Characters/Banana Man/Textures/Banana Man Albedo.png
+  artifactKey: Guid(ba30b5ad10906d145b2715c1a9446f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Banana Yellow Games/Characters/Banana Man/Textures/Banana Man Albedo.png using Guid(ba30b5ad10906d145b2715c1a9446f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3347a5a873f2c980c6ec53862e629b10') in 2.393771 seconds 
+  Import took 2.437123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 519.475316 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Materials
+  artifactKey: Guid(136cf676bb7eb8943a3a7098980b7922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Materials using Guid(136cf676bb7eb8943a3a7098980b7922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2fe3bdf5847e06fecef71dabb26011') in 0.089332 seconds 
+  Import took 0.143581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.106920 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra
+  artifactKey: Guid(1f13daebef1ce394382197859323134b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra using Guid(1f13daebef1ce394382197859323134b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb50f38cac988d1acb31c5c54f754c60') in 0.121724 seconds 
+  Import took 0.170744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.481830 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs
+  artifactKey: Guid(33212fb8b26fe404e89782fc70fe6c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs using Guid(33212fb8b26fe404e89782fc70fe6c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681a0bbe2c6b59b88cc0bf0f1b9f3a1e') in 0.099020 seconds 
+  Import took 0.142296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015439 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/BigCliff.prefab
+  artifactKey: Guid(9fa980fd96e005245ab5bfc6ac684e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/BigCliff.prefab using Guid(9fa980fd96e005245ab5bfc6ac684e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7582202d22aee070a972701ea114c69e') in 0.855368 seconds 
+  Import took 0.875970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyBarrels3.prefab
+  artifactKey: Guid(f9677ab3f01b6be44802c8775918ce03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyBarrels3.prefab using Guid(f9677ab3f01b6be44802c8775918ce03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c4ce770fa4f53248ca79a8d5a88715') in 0.229377 seconds 
+  Import took 0.295595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000718 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/GlacierWall.prefab
+  artifactKey: Guid(35819a8f8106f3b4198e2ca6fc9c77b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/GlacierWall.prefab using Guid(35819a8f8106f3b4198e2ca6fc9c77b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb860696969f6ad010a958c2854763e5') in 0.255847 seconds 
+  Import took 0.345993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000895 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/CampfireBurning.prefab
+  artifactKey: Guid(283ef34f1eec8c646a4e2dfe4f7bd906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/CampfireBurning.prefab using Guid(283ef34f1eec8c646a4e2dfe4f7bd906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11841da1c7496aec1905031dae24b4fe') in 0.437452 seconds 
+  Import took 0.505567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/Cart.prefab
+  artifactKey: Guid(70d2317802f026a429ed5f40de3c6b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/Cart.prefab using Guid(70d2317802f026a429ed5f40de3c6b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16fb295fd7c14ba69fdeb886532c2ae') in 0.282274 seconds 
+  Import took 0.314304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyCart.prefab
+  artifactKey: Guid(598bdb092607741439a217554b009bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyCart.prefab using Guid(598bdb092607741439a217554b009bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f22aaf16b38a7e5f9e5e96fbaf36fe') in 0.353704 seconds 
+  Import took 0.367773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyMarketStandSmall.prefab
+  artifactKey: Guid(7ce21b557eac80b4b8272d3c7a5f8f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyMarketStandSmall.prefab using Guid(7ce21b557eac80b4b8272d3c7a5f8f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a1e52b7891d7a0413528ebfd7b5ff0') in 0.212778 seconds 
+  Import took 0.234833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000940 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyOldStoneWall.prefab
+  artifactKey: Guid(f3ca55d6fd8e590479a3ec1a06dd4960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyOldStoneWall.prefab using Guid(f3ca55d6fd8e590479a3ec1a06dd4960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31e442c1936c59e817958ab4aea0ff1') in 0.384621 seconds 
+  Import took 0.423025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000753 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/MarketStandRed.prefab
+  artifactKey: Guid(e48ff0fa03b2c3a4a92be108909e40ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/MarketStandRed.prefab using Guid(e48ff0fa03b2c3a4a92be108909e40ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26e712f783c8f7a0b57d0b26b36759f') in 0.327320 seconds 
+  Import took 0.353629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/MarketStandSmall.prefab
+  artifactKey: Guid(c3a6af768c4cccd4d8957303547cf4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/MarketStandSmall.prefab using Guid(c3a6af768c4cccd4d8957303547cf4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe93dd3f2b5f62e648badd78b0c1000') in 0.202953 seconds 
+  Import took 0.278764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001644 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyDeadTree1.prefab
+  artifactKey: Guid(defa8834750506a409157d725b7364c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyDeadTree1.prefab using Guid(defa8834750506a409157d725b7364c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f6f668fe599e54345ef2ee10d9dc6b') in 0.245072 seconds 
+  Import took 0.255420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/BigCliffWithPlants.prefab
+  artifactKey: Guid(3a01601a30abcca4ca0392485d23c0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/BigCliffWithPlants.prefab using Guid(3a01601a30abcca4ca0392485d23c0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfeff49eec2c203bc9f3d9b017ce427') in 0.168842 seconds 
+  Import took 0.220720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000736 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/IceBerg.prefab
+  artifactKey: Guid(b060c82fc5ecfc24fa9d4c53b3ebbe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/IceBerg.prefab using Guid(b060c82fc5ecfc24fa9d4c53b3ebbe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db8a9291a851f57e21c3fb37e6cba47') in 0.326782 seconds 
+  Import took 0.347292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyMarketStandRed.prefab
+  artifactKey: Guid(4efc34a66b8e2c642b194d112b7a9cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyMarketStandRed.prefab using Guid(4efc34a66b8e2c642b194d112b7a9cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e3ada2660df258c0267ca0b7115ba7') in 0.174253 seconds 
+  Import took 0.190332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/CastleCliff.prefab
+  artifactKey: Guid(4bac6e7d0a5106b4e8ecc797d6103333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/CastleCliff.prefab using Guid(4bac6e7d0a5106b4e8ecc797d6103333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b3ff17656ed70b524b81d838e54292') in 0.229218 seconds 
+  Import took 0.250334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000746 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/MarketStand.prefab
+  artifactKey: Guid(b81eb6155720bb545892316d39eaa305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/MarketStand.prefab using Guid(b81eb6155720bb545892316d39eaa305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659707bc09107813a0bd58ec85b691f5') in 0.293171 seconds 
+  Import took 0.316680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000747 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/DistantBackgroundMountains.prefab
+  artifactKey: Guid(869b8decb2e7f464ead38a3ade201744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/DistantBackgroundMountains.prefab using Guid(869b8decb2e7f464ead38a3ade201744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7e7e6d59910b84bbd29fe16d22c89b') in 0.345817 seconds 
+  Import took 0.384032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/MarketStandClosed.prefab
+  artifactKey: Guid(e173b58551d604544ab432eefdcd7d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/MarketStandClosed.prefab using Guid(e173b58551d604544ab432eefdcd7d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e03290e99c30fe7050e3d299962fb8a') in 0.174990 seconds 
+  Import took 0.183204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyHouse1.prefab
+  artifactKey: Guid(976334b832997084984a450972d36956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyHouse1.prefab using Guid(976334b832997084984a450972d36956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8234cdc8540d6875e615c02cf787ed60') in 0.178671 seconds 
+  Import took 0.217327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000881 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyCliff.prefab
+  artifactKey: Guid(6bbd649e469871b43b3157ebf7d69134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyCliff.prefab using Guid(6bbd649e469871b43b3157ebf7d69134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f02009bb0d3f9ef7a3604a7b2ce736') in 0.259575 seconds 
+  Import took 0.294343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000696 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyMarketStand.prefab
+  artifactKey: Guid(55fe0e410f2194a47adf278fe59cf437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyMarketStand.prefab using Guid(55fe0e410f2194a47adf278fe59cf437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576e56070f4e7b50edaee588e29133aa') in 0.333509 seconds 
+  Import took 0.371841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyBarrel1.prefab
+  artifactKey: Guid(ec323558437aa4244997c7bb2a082e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyBarrel1.prefab using Guid(ec323558437aa4244997c7bb2a082e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be381c7b0f011f8e5f2ff17f6f537bb') in 0.261374 seconds 
+  Import took 0.289553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001099 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/IceFloeLow.prefab
+  artifactKey: Guid(9f7e5b070b5ac5c48af67b1642c462c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/IceFloeLow.prefab using Guid(9f7e5b070b5ac5c48af67b1642c462c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917850e7a1a47807461e4022fe5bd3a6') in 0.249242 seconds 
+  Import took 0.264470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyDeadTree2.prefab
+  artifactKey: Guid(da1c6cde83c1e90409324bab7d35cec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyDeadTree2.prefab using Guid(da1c6cde83c1e90409324bab7d35cec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1142bed27ccf4dcd5ff1df54302affe8') in 0.235273 seconds 
+  Import took 0.242563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyHillFlat.prefab
+  artifactKey: Guid(55ce8e060ebbb7742ba54dcc89842d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyHillFlat.prefab using Guid(55ce8e060ebbb7742ba54dcc89842d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21a9ada55caae44881679bd045a2d70') in 0.184312 seconds 
+  Import took 0.224290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015631 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyHillFlat.prefab
+  artifactKey: Guid(55ce8e060ebbb7742ba54dcc89842d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyHillFlat.prefab using Guid(55ce8e060ebbb7742ba54dcc89842d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21a9ada55caae44881679bd045a2d70') in 0.138069 seconds 
+  Import took 0.159867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.862845 seconds.
+  path: Assets/CLazyRunnerActionAnimPack/Materials/CLazyBody_Gray.mat
+  artifactKey: Guid(a3ac3a789870a7a41a3a116e64bf55c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CLazyRunnerActionAnimPack/Materials/CLazyBody_Gray.mat using Guid(a3ac3a789870a7a41a3a116e64bf55c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae665a77e026b363c0306ac2bb3bf711') in 0.112077 seconds 
+  Import took 0.160207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000839 seconds.
+  path: Assets/CLazyRunnerActionAnimPack/Materials/CLazyBody_White.mat
+  artifactKey: Guid(03fa50f59422f82458e6a10dd5096822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CLazyRunnerActionAnimPack/Materials/CLazyBody_White.mat using Guid(03fa50f59422f82458e6a10dd5096822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe5e333155450899c595f610554942d') in 0.128443 seconds 
+  Import took 0.160536 seconds .
+
